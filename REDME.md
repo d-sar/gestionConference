@@ -26,6 +26,8 @@ ajouter ces dependence
 			(ReactiveDiscoveryClient reactiveDiscoveryClient, DiscoveryLocatorProperties discoveryLocatorProperties) {
 		return new DiscoveryClientRouteDefinitionLocator(reactiveDiscoveryClient, discoveryLocatorProperties);
 	}
-
+config-service
+les dependences
+![img_3.png](img_3.png)
 
 ![img.png](img.png)
