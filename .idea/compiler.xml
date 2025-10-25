@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gestion-conference-app" />
+        <module name="config-service" />
         <module name="discovery-service" />
         <module name="gateway-service" />
-        <module name="gestion-conference-app" />
       </profile>
       <profile name="Annotation profile for Keynote-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -36,6 +37,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Keynote-service" options="-parameters" />
       <module name="conference-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
     </option>
